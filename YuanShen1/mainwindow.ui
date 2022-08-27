@@ -7,11 +7,12 @@
     <x>0</x>
     <y>0</y>
     <width>839</width>
-    <height>659</height>
+    <height>690</height>
    </rect>
   </property>
   <property name="font">
    <font>
+    <family>Consolas</family>
     <pointsize>10</pointsize>
    </font>
   </property>
@@ -729,7 +730,7 @@ QTextEdit, QLineEdit, QAbstractSpinBox, QComboBox, QPushButton {
            <widget class="QLabel" name="label_5">
             <property name="font">
              <font>
-              <family>Consola Mono</family>
+              <family>Microsoft YaHei UI</family>
               <pointsize>10</pointsize>
              </font>
             </property>
@@ -787,7 +788,7 @@ QTextEdit, QLineEdit, QAbstractSpinBox, QComboBox, QPushButton {
            <widget class="QLineEdit" name="m_le_end2">
             <property name="font">
              <font>
-              <family>Consola Mono</family>
+              <family>Microsoft YaHei UI</family>
               <pointsize>10</pointsize>
              </font>
             </property>
@@ -885,7 +886,7 @@ QTextEdit, QLineEdit, QAbstractSpinBox, QComboBox, QPushButton {
      <x>0</x>
      <y>0</y>
      <width>839</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

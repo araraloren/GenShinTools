@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+﻿#include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QGridLayout>
 #include <QLabel>
@@ -142,7 +142,7 @@ void MainWindow::on_pushButton_clicked()
         arguments.push_back(generate_units_state(ui->m_le_end4->text()));
     }
 
-    qDebug() << arguments << endl;
+    qDebug() << arguments << Qt::endl;
 
     process.start("yuanshen.exe", arguments);
 
