@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    setWindowTitle("方块解迷");
+    setWindowTitle(QStringLiteral("方块解迷"));
     setWindowIcon(QIcon(":app.png"));
 }
 
@@ -57,8 +57,8 @@ bool MainWindow::check_units_state(QLineEdit *line_edit, int number)
             msg += "'";
             msg += text;
             msg += "'";
-            msg += " 状态个数和方块不匹配";
-            QMessageBox::warning(this, "警告", msg);
+            msg += QStringLiteral(" 状态个数和方块不匹配");
+            QMessageBox::warning(this, QStringLiteral("警告"), msg);
             return false;
         }
         return true;
@@ -152,7 +152,7 @@ void MainWindow::on_pushButton_clicked()
         }
     }
     else {
-        QMessageBox::warning(this, "警告", "无法启动yuanshen.exe");
+        QMessageBox::warning(this, QStringLiteral("警告"), QStringLiteral("无法启动yuanshen.exe"));
     }
 }
 
